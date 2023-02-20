@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,i,pos,temp;
+    int n,i,pos;
     printf("enter no of elemnts");
     scanf("%d",&n);
     int arr[n];
@@ -13,11 +13,17 @@ int main(){
     }
     printf("\nkhaa krana h deletion\n");
     scanf("%d",&pos);
-    temp=n-1;
-    while(temp>=pos){
-        arr[temp+1]=arr[temp];
-        temp--;
+    while(pos<=n-1){
+        arr[pos]=arr[pos+1];
+        pos++;
+       
     }
+     n--;
+     printf("afeter dletion");
+     for(i=0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
+
     
 return 0;
 }
