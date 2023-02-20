@@ -11,7 +11,7 @@ int main(){
     for( i=0;i<n;i++){
     printf("%d ",arr[i]);
     }
-    printf("h be bta kidhr dlna h ");
+    printf("h be bta kidhr dlna ");
     scanf("%d",&pos);
     int temp;
     temp=n;
