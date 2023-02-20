@@ -15,7 +15,7 @@ int main(){
     scanf("%d",&pos);
     int temp;
     temp=n-1;
-    while(temp>pos){
+    while(temp>=pos){
         arr[temp+1]=arr[temp];
         temp=temp-1;
     }
