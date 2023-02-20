@@ -14,7 +14,6 @@ int main(){
     printf("\nkhaa krana h insertion\n");
     scanf("%d",&pos);
     temp=n-1;
-    n=n+1;
     while(temp>=pos){
         arr[temp+1]=arr[temp];
         temp--;
