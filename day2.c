@@ -14,8 +14,8 @@ int main(){
     printf("h be bta kidhr dlna ");
     scanf("%d",&pos);
     int temp;
-    temp=n;
-    while(temp>=pos){
+    temp=n-1;
+    while(temp>pos){
         arr[temp+1]=arr[temp];
         temp=temp-1;
     }
