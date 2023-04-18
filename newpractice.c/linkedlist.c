@@ -240,10 +240,14 @@ struct node *deletegiven(struct node *head){
     return head;
 }
 struct node *deletell(struct node *head){
-    struct node *ptr=head;
+    struct node *ptr=head,*preptr;
+    preptr=ptr;
     while(ptr->next!=NULL){
+        preptr=ptr;
         ptr=ptr->next;
-        free(ptr);
+        free(preptr);
     }
-    
+    free(ptr);
+    head->next=NULL;
+    return head;
 }
