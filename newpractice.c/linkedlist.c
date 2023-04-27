@@ -138,7 +138,7 @@ struct node *insertend(struct node *head){
     struct node *last,*ptr=head;
     last=malloc(sizeof(struct node*));
     if(last==NULL){
-        printf("ovrfloww");
+        printf("ovrflow");
     }
     else{
         printf("enter data");
