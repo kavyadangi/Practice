@@ -1,4 +1,4 @@
-Step 1: Scan each character in the infix
+/*Step 1: Scan each character in the infix
 expression. For this, repeat Steps
 2-8 until the end of infix expression
 Step 2: Push the operator into the operator
@@ -11,4 +11,9 @@ Step 5: Pop operator from operator stack
 Step 6: Concatenate operator and operand 1
 Step 7: Concatenate result with operand 2
 Step 8: Push result into the operand stack
-Step 9: END
+Step 9: END*/
+ #include<stdio.h>
+int main(){
+    int a;
+    print (a);
+}
